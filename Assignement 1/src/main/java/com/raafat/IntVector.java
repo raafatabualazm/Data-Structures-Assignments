@@ -1,4 +1,4 @@
-package com.raafat;
+package main.java.com.raafat;
 
 public class IntVector {
     private int[] internalArr;

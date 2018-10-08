@@ -1,4 +1,4 @@
-package com.raafat;
+package main.java.com.raafat;
 
 public class Main {
 
@@ -8,8 +8,8 @@ public class Main {
 			System.out.print(myArr[i]);
 		}
 		System.out.println();
-	    IntVector myManipulator = new IntVector(myArr);
-	    myArr = myManipulator.insertElement(5, 8);
+		IntVector myManipulator = new IntVector(myArr);
+	    myArr = myManipulator.insertElement(3, 8);
 		myArr = myManipulator.insertElement(7, 9);
 	   	myArr = myManipulator.deleteElement(2);
 		for (int i =0; i < myArr.length; i++){
